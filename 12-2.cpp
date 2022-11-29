@@ -1,7 +1,6 @@
 //Lab 12-2
 #include <iostream>
 #include <cstdlib>
-#include <cstring>
 using namespace std;
 
 int charcnt(char* ptr, char c);
