@@ -17,8 +17,7 @@ int main() {
     cout << endl;
     ptr = str;
 
-    while (*ptr != '\0') {
-        ptr++;
+
         cout << "Enter a character: ";
         cin >> c;
         cout << endl;
@@ -34,8 +33,8 @@ int main() {
         cout << "The reverse string is: ";
         reverse(ptr);
         cout << endl;
-        
-    }
+
+    
     return 0;
 }
 
@@ -43,7 +42,7 @@ int charcnt(char* ptr, char c) {
     int count = 0;
     for (int i = 0; i < strlen(ptr); i++) {
         if (ptr[i] == c)
-        count++;
+            count++;
     }
     return count;
 }
